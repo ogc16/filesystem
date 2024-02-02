@@ -1,0 +1,5 @@
+import os
+if os.path.exists("demo"):
+  os.rmdr("demo")
+else:
+  print("The folder does not exist")
