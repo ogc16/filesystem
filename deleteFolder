@@ -1,5 +1,5 @@
 import os
 if os.path.exists("demo"):
-  os.rmdr("demo")
+  os.rmdir("demo")
 else:
   print("The folder does not exist")
